@@ -39,7 +39,11 @@
                 <div class="col-12">
                     <a href="/newgame">Would you like to play a game?</a><br>
                     <a href="/play">Already have a game going?</a>
+                    <a href="https://christianlowry.com/mindvdataj/tutorial1.html">Play the tutorial without signing up</a>
+                    <a href="https://christianlowry.com/mindvdataj/game.html">Play a basic version of the game without signing up</a>
+
                 </div>
+
             </div>
         </div>
 
