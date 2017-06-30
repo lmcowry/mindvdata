@@ -70,14 +70,13 @@
                     Goal: guess all 5 answers one at a time<br> <br>
 
                     <a href="/newgame">Would you like to start a new game?</a><br>
+                    <a href="https://christianlowry.com/mindvdataj/tutorial1.html">Play the tutorial without signing up</a><br>
+                    <a href="https://christianlowry.com/mindvdataj/game.html">Play a basic version of the game without signing up</a><br>
+
                         </div>
                     </div>
-                    <div class="col-12">
-                        <a href="https://christianlowry.com/mindvdataj/tutorial1.html">Play the tutorial without signing up</a>
-                    </div>
-                    <div class="col-12">
-                        <a href="https://christianlowry.com/mindvdataj/game.html">Play a basic version of the game without signing up</a>
-                    </div>
+
+
                 </div>
 
                 <div class="col-6">
