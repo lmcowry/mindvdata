@@ -1,0 +1,30 @@
+.the-big-heading, .navbar-name {
+    font-family: 'Bungee Outline';
+}
+
+.custom-input {
+    border: 1px solid black;
+}
+
+body {
+    font-family: monospace;
+}
+
+.r {
+    background-color: red;
+}
+.g {
+    background-color: green;
+}
+.b {
+    background-color: blue;
+}
+.c {
+    background-color: cyan;
+}
+.y {
+    background-color: yellow;
+}
+.m {
+    background-color: magenta;
+}
