@@ -23,11 +23,21 @@ class PlayController extends Controller
             if ($allLiveAnswers->count() > 0){
                 // if all answers have been guessed
                 // display the win page (this is the same code below. Refactor for DRY)
+
+                // if ($allLiveAnswers->where('guessed', '1')->count() == $allLiveAnswers->count()){
+                //     $liveAnswers = \App\LiveAnswers::where('user_id', '1')->get();
+                //     $answers = [];
+                //     for ($counter = 0; $counter < count($liveAnswers); $counter++){
+                //         $answers[$counter] = \App\Answer::find($liveAnswers[$counter]->answer_id);
+                //     }
+                //
+                //     return view('winner', compact('answers'));
+                // }
+
                 if ($allLiveAnswers->where('guessed', '1')->count() == $allLiveAnswers->count()){
-                    $liveAnswers = \App\LiveAnswers::where('user_id', '1')->get();
                     $answers = [];
-                    for ($counter = 0; $counter < count($liveAnswers); $counter++){
-                        $answers[$counter] = \App\Answer::find($liveAnswers[$counter]->answer_id);
+                    for ($counter = 0; $counter < count($allLiveAnswers); $counter++){
+                        $answers[$counter] = \App\Answer::find($allLiveAnswers[$counter]->answer_id);
                     }
 
                     return view('winner', compact('answers'));
